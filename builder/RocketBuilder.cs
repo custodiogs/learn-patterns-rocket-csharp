@@ -1,8 +1,7 @@
 public class RocketBuilder : IRocketWorkflow, IRocketWorkflowMaxWeight, IRocketWorkflowMaxSpeed
 {
-    private RocketBuilder()
-    {
-    }
+    private RocketBuilder(){}
+
     private double MaxWeight;
     private double MaxSpeed;
 
